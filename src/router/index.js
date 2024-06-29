@@ -5,8 +5,10 @@ import Hello from '../components/HelloWorld.vue';
 import Form1 from '../views/from.vue';
 import Life from '../views/life.vue';
 import MouseTracker from '../views/MouseTracker.vue'; 
+import Home from '../views/home.vue';
 
 const routes = [
+  { path: '/', component: Home },
   { path: '/computed', component: Computed },
   { path: '/list', component: List },
   { path: '/hello', component: Hello },
